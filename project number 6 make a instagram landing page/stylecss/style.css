@@ -1,0 +1,531 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background:#313131;
+}
+
+:root{
+    --color-change:#313131;
+}
+
+/* i am set size for my landing page */
+
+#contiuner{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+/* make style in side navbar */
+
+.insgtram-sidenav-bar{
+    width: 20%;
+    height: 100%;
+    background: green;
+}
+
+/* make a main center section style */
+
+.center-section-main{
+    width: 60%;
+    height: 100%;
+    background: black;
+
+}
+
+/* make a style on side follower section  */
+
+.side-follower-section-side{
+    width: 20%;
+    height: 100%;
+    background: black;
+}
+
+/* i create a side follower */
+
+.side-follwers-icon-final-step{
+    width: 100%;
+    height: 10%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.side-follwers-icon-final-step h4{
+    font-size: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.side-follwers-icon-final-step p{
+    font-size: 10px;
+    color: white;
+}
+
+
+.side-follwers-icon-final-step a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(8, 201, 226);
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.box-img{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(3\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+/* set a intagram logo in side bar */
+
+.logo-set{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: black;
+}
+
+.logo-set img{
+    width: 140px;
+    line-height: 100%;
+    filter: grayscale(100%);
+}
+
+/* make side menu section */
+
+.make-block-elements-for-menu{
+    width: 100%;
+    height: 80%;
+    background: black;
+}
+
+/* i am nav menu image */
+
+.make-eight-box{
+    width: 100%;
+    height: 12.5%;
+    background: #000;
+    display: flex;
+    gap: 15px;
+    padding-left: 20px;
+    line-height: 100%;
+    align-items: center;
+    grid-row-gap: 10px;
+    cursor: pointer;
+}
+
+.make-eight-box img{
+    width: 25px;
+    cursor: pointer;
+}
+
+.update-change{
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgb(228, 10, 199);
+}
+
+.make-block-elements-for-menu h4{
+    color: white;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+
+
+/* make logo for down in page */
+
+.img-menu{
+    width: 100%;
+    height: 10%;
+    background: black;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    gap: 15px;
+}
+
+.img-menu h4{
+    color: white;
+}
+
+.img-menu .update-change-again{
+    width: 25px;
+}
+
+/* make on style on status bar */
+
+.status-flex-box{
+    width: 100%;
+    height: 10%;
+    background: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    position: relative;
+}
+
+
+/* status-box-instagram */
+
+.status-box-instagram{
+    display: inline-block;
+}
+
+.h4-tag{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background: black;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+     border: 3px solid rgb(255, 0, 212);
+}
+
+.name-tag{
+    font-size: 10px;
+    text-align: center;
+    color: white;
+}
+/* box-fit */
+
+
+.status-flex-box::-webkit-scrollbar{
+    width: 5px;
+    background: rgb(228, 10, 199);
+    height: 4px; 
+    border-radius: 2px;
+
+}
+
+.status-flex-box::-webkit-scrollbar-thumb{
+    background: rgb(255, 0, 212);
+    border-radius: 2px;
+}
+
+/* create a video layer in instgram */
+
+.create-instgram-section{
+    width: 100%;
+    height: 90%;
+    background: black;
+    overflow-y: auto;
+    position: relative;
+}
+
+.create-instgram-section::-webkit-scrollbar{
+    width: 5px;
+    background:black;
+    height: 4px; 
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.create-instgram-section::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 2px;
+}
+
+.overfoll{
+    display: block;
+}
+
+.create-instgram-section img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-section{
+    width: 100%;
+    height: 70px;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile-section img{
+    width: 40px;
+    border-radius: 50px;
+    display: block;
+    height: 40px;
+}
+
+.profile-section h4{
+    margin-left: 10px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.follow{
+    display: inline-block;
+    margin-left: 10px;
+    text-decoration: none;
+    width: 100px;
+    height: 27px;
+    line-height: 27px;
+    color: white;
+    background: rgb(0, 195, 255);
+    text-align: center;
+    border-radius: 10px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+.three-dot{
+     position: absolute;
+     right: 10px; 
+     line-height: 70px;
+     display: flex;
+     align-items: center;
+     bottom: 50%;
+     gap: 6px;
+     overflow: hidden;
+}
+
+.three-dot span{
+    border-radius: 50px;
+    background: white;
+    width: 5px;
+    height: 5px;
+}
+
+/* suggested for you */
+/* height 15% */
+
+.suggested{
+    width: 100%;
+    height: 5%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.suggested h4{
+    color: white;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.suggested a{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(8, 201, 226);
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+/* last time */
+
+.full-box-last-time{
+    width: 100%;
+    height: 60%;
+    background: black;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.full-box-last-time::-webkit-scrollbar{
+    width: 5px;
+    background: black;
+    height: 4px; 
+    border-radius: 2px;
+    transition: 0.5s;
+}
+
+.full-box-last-time::-webkit-scrollbar-thumb{
+    background: black;
+    border-radius: 2px;
+}
+
+
+
+.side-follwers-icon-final-step-1{
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    gap: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box-img-1{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(3\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-2{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(7\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-3{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(5\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-4{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(4\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-5{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(9\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-6{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(8\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-7{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(6\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.box-img-8{
+    width: 40px;
+    height: 40px;
+    background: url(..//imgfolder/wallpaperflare.com_wallpaper\(10\).jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    border-radius: 50px;
+}
+
+.side-follwers-icon-final-step-1 h4{
+    color: white;
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+.side-follwers-icon-final-step-1 p{
+    font-size: 10px;
+    color: white;
+}
+
+.side-follwers-icon-final-step-1 a{
+    text-decoration: none;
+    color: rgb(0, 195, 255);
+    font-size: 12px;
+    text-transform: capitalize;
+}
+
+/* create a final text box */
+
+
+.final-box-text-time{
+    width: 100%;
+    height: 23%;
+    background: black;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+
+.text-tag-final a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    color: white;
+    text-transform: capitalize;
+    padding-left: 2px;
+}
+
+.final-text-h4{
+    margin-top: 15px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+}
